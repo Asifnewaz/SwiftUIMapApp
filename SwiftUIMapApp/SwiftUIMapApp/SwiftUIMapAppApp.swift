@@ -13,7 +13,7 @@ struct SwiftUIMapAppApp: App {
     var body: some Scene {
         WindowGroup {
             LocationsView()
-                .environment(vm)
+                .environmentObject(vm)
         }
     }
 }
