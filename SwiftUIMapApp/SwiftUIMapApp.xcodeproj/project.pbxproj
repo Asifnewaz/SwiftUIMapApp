@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE14E77A2B62F8FB002A325E /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14E7792B62F8FB002A325E /* LocationListView.swift */; };
+		CE4A3C3D2B65A84F003E87F2 /* LocatioMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A3C3C2B65A84F003E87F2 /* LocatioMapAnnotationView.swift */; };
 		CE63CB4A2B642ECA00D1EF4F /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63CB492B642ECA00D1EF4F /* LocationPreviewView.swift */; };
 		CE689C8A2B617D40003D47BD /* SwiftUIMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689C892B617D40003D47BD /* SwiftUIMapAppApp.swift */; };
 		CE689C8C2B617D40003D47BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689C8B2B617D40003D47BD /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		CE14E7792B62F8FB002A325E /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		CE4A3C3C2B65A84F003E87F2 /* LocatioMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatioMapAnnotationView.swift; sourceTree = "<group>"; };
 		CE63CB492B642ECA00D1EF4F /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		CE689C862B617D40003D47BD /* SwiftUIMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE689C892B617D40003D47BD /* SwiftUIMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMapAppApp.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				CE689CA12B6193EC003D47BD /* LocationsView.swift */,
 				CE14E7792B62F8FB002A325E /* LocationListView.swift */,
 				CE63CB492B642ECA00D1EF4F /* LocationPreviewView.swift */,
+				CE4A3C3C2B65A84F003E87F2 /* LocatioMapAnnotationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				CE689CA22B6193EC003D47BD /* LocationsView.swift in Sources */,
 				CE14E77A2B62F8FB002A325E /* LocationListView.swift in Sources */,
 				CE689C9F2B617EB0003D47BD /* Location.swift in Sources */,
+				CE4A3C3D2B65A84F003E87F2 /* LocatioMapAnnotationView.swift in Sources */,
 				CE689C9A2B617DD4003D47BD /* LocationsDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
